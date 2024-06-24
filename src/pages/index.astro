@@ -1,6 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import UserList from "../components/UserList.astro";
+
+
+
+
 ---
 
 <Layout title="Graphicon Chat app" >
@@ -9,8 +13,8 @@ import UserList from "../components/UserList.astro";
 	<div class="row clearfix">
 		<div class="col-lg-12">
 			<div class="card chat-app">
-				<div id="plist" class="people-list">
-					<div class="input-group">
+				<div id="plist" class="people-list" style=" height: 100%; overflow: scroll;">
+					<div class="input-group" style="position: sticky; top: 0;">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fa fa-search"></i></span>
 						</div>
